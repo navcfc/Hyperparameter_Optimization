@@ -56,6 +56,8 @@ if __name__=="__main__":
         X = X,
         y = y)
 
+
+    print("----------------optimiziation func: " , optimization_function)
     result = gp_minimize(
         optimization_function,
         dimensions=param_space,
